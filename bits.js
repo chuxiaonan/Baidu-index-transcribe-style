@@ -4,21 +4,21 @@
 // @version      0.1
 // @description  Inverse Baidu Index's Style
 // @author       Chu Xiaonan
-// @match        https://www.baidu.com/
+// @match        https://www.baidu.com/|http://www.baidu.com/
 // @grant        none
 // ==/UserScript==
 
 function add_css(str_css) {
-     try {
-          var style = document.createStyleSheet();
-          style.cssText = str_css;
-     }
-     catch (e) {
-          var style = document.createElement("style");
-          style.type = "text/css";
-          style.textContent = str_css;
-          document.getElementsByTagName("head")[0].appendChild(style);
-	}
+    try {
+        var style = document.createStyleSheet();
+        style.cssText = str_css;
+    }
+    catch (e) {
+        var style = document.createElement("style");
+        style.type = "text/css";
+        style.textContent = str_css;
+        document.getElementsByTagName("head")[0].appendChild(style);
+    }
 }
 
 window.onload = function() {
