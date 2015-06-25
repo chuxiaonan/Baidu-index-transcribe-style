@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         Baidu Index Transcribe Style Script
-// @namespace    https://github.com/chuxiaonan
+// @namespace    https://github.com/chuxiaonan/Baidu-index-transcribe-style
 // @version      0.1
 // @description  Inverse Baidu Index's Style
 // @author       Chu Xiaonan
-// @match        https://www.baidu.com/|http://www.baidu.com/
+// @match        https://www.baidu.com/*
+// @match        http://www.baidu.com/*
 // @grant        none
 // ==/UserScript==
 
