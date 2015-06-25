@@ -31,5 +31,5 @@ window.onload = function() {
 	add_css(s3+s1+s2);
 };
 
-/* End of file bits.js */
-/* Location: ./bits.js */
+/* End of file bits.user.js */
+/* Location: ./bits.user.js */
