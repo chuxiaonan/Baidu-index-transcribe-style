@@ -6,6 +6,8 @@
 // @author       Chu Xiaonan
 // @match        https://www.baidu.com/*
 // @match        http://www.baidu.com/*
+// @exclude      https://www.baidu.com/s*
+// @exclude      http://www.baidu.com/s*
 // @grant        none
 // ==/UserScript==
 
