@@ -29,6 +29,9 @@ window.onload = function() {
     var s2 = '#s_content_1 .s-nall-tabs a {color:#ffffff}';
     var s3 = '.s-nav-opts .s-nav-opt {color:#ffffff}';
     add_css(s3+s1+s2);
+    //remove "More Productions" on right above of the page
+    var a_s_bri = $('.s_bri');
+    a_s_bri.remove();
 };
 
 /* End of file bits.user.js */
