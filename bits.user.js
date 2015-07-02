@@ -8,6 +8,7 @@
 // @match        http://www.baidu.com/*
 // @exclude      https://www.baidu.com/s*
 // @exclude      http://www.baidu.com/s*
+// @updateURL    https://raw.githubusercontent.com/chuxiaonan/Baidu-index-transcribe-style/master/bits.user.js
 // @grant        none
 // ==/UserScript==
 
